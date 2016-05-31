@@ -1,6 +1,6 @@
-# Mathias’s dotfiles
+# Anup's dotfiles
 
-![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
+![Screenshot of my shell prompt](TODO)
 
 ## Installation
 
@@ -8,7 +8,9 @@
 
 ### Using Git and the bootstrap script
 
-You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
+You can clone the repository wherever you want. (I like to keep it in `~/code/dotfiles`, with `~/.dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
+
+Note that the bootstrapper will copy *everything* in the working directory to ~ except for a few excluded paths. Adjust bootstrap.sh accordingly.  I keep directories matching wip-* in the directory to try out things and migrate old config files.  Still need to add the wildcard match for bootstrap.sh but the pattern is in the gitignore.
 
 ```bash
 git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh
@@ -81,19 +83,22 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ./brew.sh
 ```
 
+## More to review/incorporate
+
+[Awesome dotfiles repo](https://github.com/webpro/awesome-dotfiles)
+
 ## Feedback
 
 Suggestions/improvements
-[welcome](https://github.com/mathiasbynens/dotfiles/issues)!
+[welcome](https://github.com/anup-ap/dotfiles/issues)!
 
 ## Author
 
-| [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
-|---|
-| [Mathias Bynens](https://mathiasbynens.be/) |
+Anup K Murarka
 
 ## Thanks to…
 
+* [Mathias Bynens](https://mathiasbynens.be/)
 * @ptb and [his _OS X Lion Setup_ repository](https://github.com/ptb/Mac-OS-X-Lion-Setup)
 * [Ben Alman](http://benalman.com/) and his [dotfiles repository](https://github.com/cowboy/dotfiles)
 * [Chris Gerke](http://www.randomsquared.com/) and his [tutorial on creating an OS X SOE master image](http://chris-gerke.blogspot.com/2012/04/mac-osx-soe-master-image-day-7.html) + [_Insta_ repository](https://github.com/cgerke/Insta)
