@@ -2,6 +2,10 @@
 
 ![Screenshot of my shell prompt](TODO)
 
+## More to review/incorporate
+
+[Awesome dotfiles repo](https://github.com/webpro/awesome-dotfiles)
+
 ## Installation
 
 **Warning:** If you want to give these dotfiles a try, you should first fork this repository, review the code, and remove things you don’t want or need. Don’t blindly use my settings unless you know what that entails. Use at your own risk!
@@ -82,10 +86,6 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ```bash
 ./brew.sh
 ```
-
-## More to review/incorporate
-
-[Awesome dotfiles repo](https://github.com/webpro/awesome-dotfiles)
 
 ## Feedback
 

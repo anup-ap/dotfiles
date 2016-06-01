@@ -127,8 +127,10 @@
 
 [commit]
 
+	# I'd like to keep signed commits as a default but since BitBucket doesn't support them,
+	# this needs to default off and then I should turn it on as needed for GitHub hosted repos only
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	gpgsign = false
 
 [diff]
 
