@@ -2,7 +2,7 @@
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-git pull origin ubuntu;
+git pull origin centos;
 
 function doIt() {
 	rsync --exclude ".git/" \
