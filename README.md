@@ -17,7 +17,7 @@ You can clone the repository wherever you want. (I like to keep it in `~/code/do
 Note that the bootstrapper will copy *everything* in the working directory to ~ except for a few excluded paths. Adjust bootstrap.sh accordingly.  I keep directories matching wip-* in the directory to try out things and migrate old config files.  Still need to add the wildcard match for bootstrap.sh but the pattern is in the gitignore.
 
 ```bash
-git clone https://github.com/anup-ap/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/anupmurarka/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
 To update, `cd` into your local `dotfiles` repository and then:
