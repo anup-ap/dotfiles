@@ -52,3 +52,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 # Add rbenv ruby initialization
 eval "$(rbenv init -)"
 
+if [ -f $HOME/.bashrc ]; then
+	source $HOME/.bashrc;
+fi;
+
